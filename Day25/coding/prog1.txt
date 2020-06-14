@@ -1,0 +1,29 @@
+Python Program to print the pattern.
+
+Description:
+Input:
+Number of rows is 5
+
+Output Pattern is:
+A
+B C
+D E F
+G H I J
+K L M N O
+
+Program:
+asciiNumber = 65
+for i in range(0, 5):
+    for j in range(0, i + 1):
+        character = chr(asciiNumber)
+        print(character, end=' ')
+        asciiNumber += 1
+    print(" ")
+
+
+Output:
+A  
+B C  
+D E F  
+G H I J  
+K L M N O  
